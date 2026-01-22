@@ -1,0 +1,17 @@
+{
+  "name": "houzz-scraper",
+  "version": "1.0.0",
+  "description": "Playwright scraper for Houzz business listings",
+  "main": "houzz.js",
+  "scripts": {
+    "start": "node houzz.js",
+    "install:browsers": "playwright install"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
